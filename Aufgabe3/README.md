@@ -33,20 +33,20 @@ Sollte ein Fehler auftreten - einfach das Setup-Skript erneut ausführen:
 
 ### Aufgabe
 
-In dieser Aufgabe arbeiten wir mit zwei Branches, `master` und `feature`. An beiden Branches wurde unabhängig voneinander gearbeitet. Es gibt jedoch einige Änderungen im `feature`-Branch, die wir übernehmen und in den `master`-Branch integrieren möchten, ohne dabei den gesamten Changeset des `feature`-Branches zu übernehmen.
+In dieser Aufgabe arbeiten wir mit zwei Branches, `main` und `feature`. An beiden Branches wurde unabhängig voneinander gearbeitet. Es gibt jedoch einige Änderungen im `feature`-Branch, die wir übernehmen und in den `main`-Branch integrieren möchten, ohne dabei den gesamten Changeset des `feature`-Branches zu übernehmen.
 
 Unser Übungsrepository weist aktuell folgenden Git-Verlauf auf:
 
 ```
-A - B - C - D     master
+A - B - C - D     main
      \
       E - F - G - H feature
 ```
 
-Wie Sie sehen, haben sich der `feature`-Branch und der `master`-Branch mit jeweils eigenen Commits weiterentwickelt. Wir möchten die Commits F und G aus dem `feature`-Branch übernehmen und in den `master`-Branch integrieren, sodass der Git-Verlauf folgendermaßen aussieht:
+Wie Sie sehen, haben sich der `feature`-Branch und der `main`-Branch mit jeweils eigenen Commits weiterentwickelt. Wir möchten die Commits F und G aus dem `feature`-Branch übernehmen und in den `main`-Branch integrieren, sodass der Git-Verlauf folgendermaßen aussieht:
 
 ```
-A - B - C - D - F - G master
+A - B - C - D - F - G main
      \
       E - F - G - H feature
 ```
@@ -55,7 +55,7 @@ A - B - C - D - F - G master
 2. Verwenden Sie `cat`, um den Inhalt der Datei `names.txt` anzuzeigen. Diese Datei wird in Commit F geändert.
 3. Verwenden Sie `cat`, um den Inhalt der Datei `sentence.txt` anzuzeigen. Diese Datei wird in Commit G geändert.
 4. Verwenden Sie `git cherry-pick <Commit-Hash_F>`, um nur den Commit F auf Ihren Branch zu übernehmen (cherry-pick).
-5. Verwenden Sie `git log --oneline`, um die Änderung am Verlauf zu überprüfen. Commit F sollte nun der neueste Commit im `master`-Branch sein.
+5. Verwenden Sie `git log --oneline`, um die Änderung am Verlauf zu überprüfen. Commit F sollte nun der neueste Commit im `main`-Branch sein.
 6. Verwenden Sie `cat`, um den Inhalt von `names.txt` anzuzeigen. Sehen Sie, wie sich die Datei geändert hat!
 7. Verwenden Sie `git reset --hard HEAD^`, um das Cherry-Picking aus dem Verlauf zu löschen, sodass wir erneut versuchen können, einen Bereich von Commits zu übernehmen.
 8. Verwenden Sie `git log --oneline --graph`, um zu überprüfen, ob der per Cherry-Picking übernommene Commit jetzt aus dem Branch entfernt wurde.

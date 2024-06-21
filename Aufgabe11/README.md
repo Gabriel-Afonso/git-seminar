@@ -36,7 +36,7 @@ In dieser Aufgabe arbeiten wir mit zwei Branches, `main` und `feature`. An beide
 Unser Übungsrepository weist aktuell folgenden Git-Verlauf auf:
 
 ```
-A - B - C - D master
+A - B - C - D main
      \
       E - F - G - H feature
 ```
@@ -44,7 +44,7 @@ A - B - C - D master
 Scheinbar sind einige Commits verloren gegangen. Ziel ist es aus der oben beschriebenen Struktur die unten Angegebene wieder herzustellen.
 
 ```
-A - B - C - D - F - G master
+A - B - C - D - F - G main
      \
       E - F - G - H - I feature
 ```
