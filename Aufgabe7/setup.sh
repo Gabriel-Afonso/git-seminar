@@ -2,7 +2,7 @@
 
 # create exercise repository
 rm -rf exercise
-git init exercise
+git init -b main exercise
 cd exercise
 
 # Datei "file1.txt" mit Inhalt "Text in Datei 1" erstellen und committen

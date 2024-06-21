@@ -2,7 +2,7 @@
 
 # create exercise repository
 rm -rf exercise
-git init exercise
+git init -b main exercise
 cd exercise
 
 #Commit a
@@ -52,4 +52,4 @@ echo "Boring extra file for no reason" > boring.txt
 git add boring.txt
 git commit -m "Commit H: Added the boring file"
 
-git checkout master
+git checkout main

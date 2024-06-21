@@ -33,6 +33,6 @@ Sollte ein Fehler auftreten - einfach das Setup-Skript erneut ausführen:
 
 ### Aufgabe
 
-In diesem Repository gibt es einen Merge-Konflikt. Git nicht herausfinden, wie man den Inhalt, der auf `merge-conflict-branch1` hinzugefügt wurde, mit dem Inhalt auf `main` zusammenführt.
+In diesem Repository gibt es einen Merge-Konflikt. Git nicht herausfinden, wie man den Inhalt, der auf `branch1` hinzugefügt wurde, mit dem Inhalt auf `main` zusammenführt.
 
 Beide Änderungen sollen im "main"-Branch sein.

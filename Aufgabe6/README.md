@@ -27,7 +27,7 @@ cd exercise
 
 ### Aufgabe:
 
-Sie arbeiten sehr hart am Master-Zweig.
+Sie arbeiten sehr hart am Main-Zweig.
 Ein Teil Ihrer Arbeit ist bereits abgeschlossen. In diesem Moment kommt Ihr Chef mit einer dringenden Anfrage herein.
 
 Da Ihr aktueller HEAD noch nicht bereit für die Prime-Time ist, sichern Sie einen Commit und starten einen neuen Zweig mit dem Namen 'quickfix'. Dann stellen Sie fest, dass Sie ein kleines Chaos mit Ihren Zweigen angerichtet haben.
@@ -35,7 +35,7 @@ Da Ihr aktueller HEAD noch nicht bereit für die Prime-Time ist, sichern Sie ein
 Momentan sehen Ihre Commits wie folgt aus
 
 ```text
-         master
+         main
            |
            v
    A <---- B

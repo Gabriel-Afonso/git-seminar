@@ -2,7 +2,7 @@
 
 # create exercise repository
 rm -rf exercise
-git init exercise
+git init -b main exercise
 cd exercise
 
 echo '#! /usr/bin/env bash' > 'test.sh'

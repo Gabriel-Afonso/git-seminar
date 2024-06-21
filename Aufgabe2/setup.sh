@@ -2,7 +2,7 @@
 
 # create exercise repository
 rm -rf exercise
-git init exercise
+git init -b main exercise
 cd exercise
 
 touch greeting.txt
@@ -19,7 +19,7 @@ git add file.txt
 git commit -m "add relevant fact"
 
 
-git checkout master
+git checkout main
 echo "This is an indispensable truth!" > file.txt
 git add file.txt
 git commit -m "add indispensable truth!"

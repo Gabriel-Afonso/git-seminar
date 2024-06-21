@@ -2,7 +2,7 @@
 
 # create exercise repository
 rm -rf exercise
-git init exercise
+git init -b main exercise
 cd exercise
 
 touch file.txt
@@ -21,4 +21,4 @@ echo "This is a very quick fix" > fix.txt
 
 git add fix.txt
 
-git commit -m "Make quick fix - should be moved to master"
+git commit -m "Make quick fix - should be moved to main"
