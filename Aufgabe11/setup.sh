@@ -74,3 +74,5 @@ git reset --hard HEAD~2
 
 git checkout feature
 git reset --hard HEAD~1
+
+git checkout main
