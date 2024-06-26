@@ -37,7 +37,7 @@ Sollte ein Fehler auftreten - einfach das Setup-Skript erneut ausführen:
 - Wie sieht git status jetzt aus?
 - Ändern Sie den Inhalt der Datei, die Sie zuvor erstellt haben.
 - Wie sieht git status jetzt aus?
-- Fügen Sie die Änderung der Datei hinzu.
+- Fügen Sie die Datei dem Staging-Bereich hinzu.
 - Wie sieht git status jetzt aus?
 - Ändern Sie die Datei erneut.
 - Machen Sie einen Commit.
