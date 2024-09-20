@@ -27,7 +27,7 @@ Sollte ein Fehler auftreten - einfach das Setup-Skript erneut ausführen:
 
 ### Aufgabe:
 
-- Das vorgegebene Repository hat einen Fehler in der aktuellen Version. Der Test `test.sh` scheint nicht richtig durchzulaufen. Beheben Sie den Fehler mithilfe einen neuen Commit zu erstellen.
+- Das vorgegebene Repository hat einen Fehler in der aktuellen Version. Der Test `test.sh` scheint nicht richtig durchzulaufen. Beheben Sie den Fehler ohne einen neuen Commit zu erstellen.
 - Was ist der unterschied zwischen `git reset --soft <commit-id>` und `git reset --hard <commit-id>`? Wann sollte man welchen Befehl verwenden?
 - Wann sollte `git reset` NICHT verwendet werden? Warum?
 

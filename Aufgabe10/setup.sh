@@ -29,3 +29,10 @@ git commit -m "Dritte Datei hinzufügen"
 # Datei "file2.txt" anpassen und committen
 echo "Neuer Text in Datei 2" > file2.txt
 git commit -am "Zweite Datei angepasst"
+
+# Datei "file2.txt" anpassen und committen
+echo "Neuer Text in Datei 2" > file2.txt
+git commit -am "Zweite Datei angepasst"
+
+# Änderungen an der Datei main.py (ohne commit)
+echo "Neuer Text in Datei 2" > file2.txt
