@@ -1,0 +1,17 @@
+- **Status anzeigen**: `git status` → Zeigt aktuellen Branch und Status des Repositories.
+- **Log anzeigen**: `git log` → Listet vergangene Commits auf.
+- **Datei erstellen**: `touch newfile.txt` → Erstellt neue Datei.
+- **Status überprüfen**: `git status` → Zeigt neu erstellte Datei als nicht im Staging-Bereich.
+- **Datei zum Staging hinzufügen**: `git add newfile.txt` → Datei wird in den Staging-Bereich verschoben.
+- **Status überprüfen**: `git status` → Datei im Staging-Bereich, bereit zum Commit.
+- **Commit erstellen**: `git commit -m "Add newfile.txt"` → Datei wird im Repository festgeschrieben.
+- **Status überprüfen**: `git status` → Arbeitsbereich sauber, keine uncommitteten Änderungen.
+- **Datei ändern**: `echo "This is a change" >> newfile.txt` → Datei wird verändert.
+- **Status überprüfen**: `git status` → Datei verändert, aber noch nicht im Staging-Bereich.
+- **Geänderte Datei zum Staging hinzufügen**: `git add newfile.txt` → Geänderte Datei in den Staging-Bereich verschoben.
+- **Datei erneut ändern**: `echo "Another change" >> newfile.txt` → Weitere Änderung an der Datei.
+- **Commit machen**: `git commit -m "Commit with pending changes"` → Commit mit Staging-Änderungen, ungestagte Änderungen bleiben.
+- **Status und Log anzeigen**: `git status`, `git log` → Status zeigt ungestagte Änderungen, Log zeigt neuen Commit.
+- **Letzte Änderungen hinzufügen und committen**:
+  - `git add newfile.txt`
+  - `git commit -m "Add final changes to newfile.txt"` → Finaler Commit mit allen Änderungen.
