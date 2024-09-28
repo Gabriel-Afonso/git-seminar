@@ -34,26 +34,20 @@ Da Ihr aktueller HEAD noch nicht bereit für die Prime-Time ist, sichern Sie ein
 
 Momentan sehen Ihre Commits wie folgt aus
 
-```text
-         main
-           |
-           v
-   A <---- B
-   ^ \
-   |  \--- C
-remote     ^
-           |
-        quickfix
+```mermaid
+gitGraph
+   commit id: "initial commit" tag: "origin"
+   branch quickfix
+   commit id: "qickfix"
+   checkout main
+   commit id: "futher work"
 ```
 
 Sie wollen aber, dass es wie folgt aussieht:
 
-```text
-         remote
-           |
-           v
-   A <---- C <---- B
-                   ^
-                   |
-                  HEAD
+```mermaid
+gitGraph
+   commit id: "initial commit"
+   commit id: "qickfix" tag: "origin"
+   commit id: "futher work"
 ```

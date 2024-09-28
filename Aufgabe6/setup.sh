@@ -2,12 +2,15 @@
 
 # create exercise repository
 rm -rf exercise
-git init -b main exercise
+rm -rf exercise-remote
+git init --bare -b main exercise-remote
+git clone exercise-remote exercise
 cd exercise
 
 touch file.txt
 git add file.txt
 git commit -m "Initial commit"
+git push
 
 echo "This is a relevant fact" > file.txt
 
